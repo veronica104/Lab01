@@ -130,4 +130,4 @@ public class CalculConsola {
         }while (opc != 8);
        scanner.close();
      }
-}5
+}
