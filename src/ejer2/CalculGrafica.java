@@ -3,9 +3,12 @@ package ejer2;
 
 public class CalculGrafica extends javax.swing.JFrame {
 
+    metodos metodoz = new metodos();
    
     public CalculGrafica() {
         initComponents();
+        
+         this.setLocationRelativeTo(txt);
     }
 
    
@@ -302,7 +305,7 @@ public class CalculGrafica extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void boton_7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_boton_7MouseClicked
-        
+        txt.setText(metodoz.concatenamiento("7"));
     }//GEN-LAST:event_boton_7MouseClicked
 
     private void boton_cosMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_boton_cosMouseClicked
@@ -310,7 +313,7 @@ public class CalculGrafica extends javax.swing.JFrame {
     }//GEN-LAST:event_boton_cosMouseClicked
 
     private void boton_8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_boton_8MouseClicked
-        
+        txt.setText(metodoz.concatenamiento("8"));
     }//GEN-LAST:event_boton_8MouseClicked
 
     private void boton_tanMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_boton_tanMouseClicked
@@ -318,7 +321,7 @@ public class CalculGrafica extends javax.swing.JFrame {
     }//GEN-LAST:event_boton_tanMouseClicked
 
     private void boton_9MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_boton_9MouseClicked
-        
+        txt.setText(metodoz.concatenamiento("9"));
     }//GEN-LAST:event_boton_9MouseClicked
 
     private void boton_potenciaMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_boton_potenciaMouseClicked
@@ -326,7 +329,7 @@ public class CalculGrafica extends javax.swing.JFrame {
     }//GEN-LAST:event_boton_potenciaMouseClicked
 
     private void boton_0MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_boton_0MouseClicked
-      
+      txt.setText(metodoz.concatenamiento("0"));
     }//GEN-LAST:event_boton_0MouseClicked
 
     private void boton_raizMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_boton_raizMouseClicked
@@ -334,7 +337,7 @@ public class CalculGrafica extends javax.swing.JFrame {
     }//GEN-LAST:event_boton_raizMouseClicked
 
     private void boton_pMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_boton_pMouseClicked
-       
+       txt.setText(metodoz.concatenamiento("."));
     }//GEN-LAST:event_boton_pMouseClicked
 
     private void boton_pActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton_pActionPerformed
@@ -342,19 +345,19 @@ public class CalculGrafica extends javax.swing.JFrame {
     }//GEN-LAST:event_boton_pActionPerformed
 
     private void boton_igualMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_boton_igualMouseClicked
-       
+         txt.setText(""+metodoz.resultado(txt.getText()));
     }//GEN-LAST:event_boton_igualMouseClicked
 
     private void boton_sumaMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_boton_sumaMouseClicked
-       
+        metodoz.suma(txt.getText());
     }//GEN-LAST:event_boton_sumaMouseClicked
 
     private void boton_restaMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_boton_restaMouseClicked
-       
+       metodoz.resta(txt.getText());
     }//GEN-LAST:event_boton_restaMouseClicked
 
     private void boton_multiMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_boton_multiMouseClicked
-        
+        metodoz.multiplicacion(txt.getText());
     }//GEN-LAST:event_boton_multiMouseClicked
 
     private void txtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtActionPerformed
@@ -362,7 +365,7 @@ public class CalculGrafica extends javax.swing.JFrame {
     }//GEN-LAST:event_txtActionPerformed
 
     private void boton_1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_boton_1MouseClicked
-        
+        txt.setText(metodoz.concatenamiento("1"));
     }//GEN-LAST:event_boton_1MouseClicked
 
     private void boton_1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton_1ActionPerformed
@@ -370,11 +373,11 @@ public class CalculGrafica extends javax.swing.JFrame {
     }//GEN-LAST:event_boton_1ActionPerformed
 
     private void boton_2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_boton_2MouseClicked
-       
+       txt.setText(metodoz.concatenamiento("2"));
     }//GEN-LAST:event_boton_2MouseClicked
 
     private void boton_3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_boton_3MouseClicked
-        
+        txt.setText(metodoz.concatenamiento("3"));
     }//GEN-LAST:event_boton_3MouseClicked
 
     private void boton_3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton_3ActionPerformed
@@ -382,11 +385,11 @@ public class CalculGrafica extends javax.swing.JFrame {
     }//GEN-LAST:event_boton_3ActionPerformed
 
     private void boton_4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_boton_4MouseClicked
-       
+       txt.setText(metodoz.concatenamiento("4"));
     }//GEN-LAST:event_boton_4MouseClicked
 
     private void boton_5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_boton_5MouseClicked
-        
+        txt.setText(metodoz.concatenamiento("5"));
     }//GEN-LAST:event_boton_5MouseClicked
 
     private void boton_5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton_5ActionPerformed
@@ -394,11 +397,11 @@ public class CalculGrafica extends javax.swing.JFrame {
     }//GEN-LAST:event_boton_5ActionPerformed
 
     private void boton_divicMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_boton_divicMouseClicked
-        
+         metodoz.division(txt.getText());
     }//GEN-LAST:event_boton_divicMouseClicked
 
     private void boton_6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_boton_6MouseClicked
-       
+        txt.setText(metodoz.concatenamiento("6"));
     }//GEN-LAST:event_boton_6MouseClicked
 
     private void boton_6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton_6ActionPerformed
