@@ -14,6 +14,7 @@ public class metodos {
     private boolean raiz;
     private boolean potencia;
     
+    
    public metodos(){
        cadena="";
        suma=false;
@@ -25,6 +26,7 @@ public class metodos {
        tangente=false;
        raiz=false;
        potencia=false;
+       
    }
    
    public String concatenamiento(String numero){
@@ -130,6 +132,8 @@ public class metodos {
             resultado=Math.pow(resultado, Double.parseDouble(numero));
         }
         
+        
+        
         suma=false;
        resta=false;
        multiplicacion=false;
@@ -141,5 +145,9 @@ public class metodos {
        potencia=false;
        
        return resultado;
+    }
+
+    String getText() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 }

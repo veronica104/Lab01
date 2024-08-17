@@ -1,5 +1,4 @@
 
-
 import ejer1.CalculConsola;
 import ejer2.CalculGrafica;
 import javax.swing.*;
