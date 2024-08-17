@@ -309,7 +309,7 @@ public class CalculGrafica extends javax.swing.JFrame {
     }//GEN-LAST:event_boton_7MouseClicked
 
     private void boton_cosMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_boton_cosMouseClicked
-       
+        metodoz.coseno(txt.getText());
     }//GEN-LAST:event_boton_cosMouseClicked
 
     private void boton_8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_boton_8MouseClicked
@@ -317,7 +317,7 @@ public class CalculGrafica extends javax.swing.JFrame {
     }//GEN-LAST:event_boton_8MouseClicked
 
     private void boton_tanMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_boton_tanMouseClicked
-    
+    metodoz.tangente(txt.getText());
     }//GEN-LAST:event_boton_tanMouseClicked
 
     private void boton_9MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_boton_9MouseClicked
@@ -325,7 +325,7 @@ public class CalculGrafica extends javax.swing.JFrame {
     }//GEN-LAST:event_boton_9MouseClicked
 
     private void boton_potenciaMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_boton_potenciaMouseClicked
-       
+         metodoz.potencia(txt.getText());
     }//GEN-LAST:event_boton_potenciaMouseClicked
 
     private void boton_0MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_boton_0MouseClicked
@@ -333,7 +333,7 @@ public class CalculGrafica extends javax.swing.JFrame {
     }//GEN-LAST:event_boton_0MouseClicked
 
     private void boton_raizMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_boton_raizMouseClicked
-     
+      metodoz.raiz(txt.getText());
     }//GEN-LAST:event_boton_raizMouseClicked
 
     private void boton_pMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_boton_pMouseClicked
@@ -409,7 +409,7 @@ public class CalculGrafica extends javax.swing.JFrame {
     }//GEN-LAST:event_boton_6ActionPerformed
 
     private void boton_senMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_boton_senMouseClicked
-       
+       metodoz.seno(txt.getText());
     }//GEN-LAST:event_boton_senMouseClicked
 
     
